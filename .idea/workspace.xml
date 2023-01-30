@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fde21692-09ba-4cee-b36b-dc9e39675ee0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../../../wordpress" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2KmhXH0RYKOKWVTwtXH2S9C55n9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.php.frameworks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\solbeg-test-task\wp-content\plugins\solbeg-task\assets\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\solbeg-test-task\wp-content\plugins\solbeg-task\includes" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fde21692-09ba-4cee-b36b-dc9e39675ee0" name="Default Changelist" comment="" />
+      <created>1674585703259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674585703259</updated>
+      <workItem from="1674585706410" duration="19000" />
+      <workItem from="1674585726094" duration="18472000" />
+      <workItem from="1674630187086" duration="1210000" />
+      <workItem from="1674643690159" duration="7764000" />
+      <workItem from="1674888172922" duration="600000" />
+      <workItem from="1674895347185" duration="542000" />
+      <workItem from="1674901892241" duration="237000" />
+      <workItem from="1675110532726" duration="5144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2577" y="260" key="FileChooserDialogImpl" timestamp="1674895892486">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="985" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1674586248201" />
+    <state x="2577" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1674895892486" />
+    <state x="2246" y="222" key="NewPhpClassDialog" timestamp="1674600279226">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="2246" y="222" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1674600279226" />
+    <state x="2394" y="415" key="NewPhpFileDialog" timestamp="1674646152324">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="2394" y="415" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1674646152324" />
+    <state x="2061" y="137" key="SettingsEditor" timestamp="1674598247778">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="2061" y="137" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1674598247778" />
+    <state x="2229" y="111" width="865" height="686" key="find.popup" timestamp="1674595168388">
+      <screen x="1920" y="0" width="1280" height="984" />
+    </state>
+    <state x="463" y="117" width="1297" height="724" key="find.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1674586054462" />
+    <state x="2229" y="111" width="865" height="686" key="find.popup/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1674595168388" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>D:\wordpress</wordpressPath>
+  </component>
+</project>
