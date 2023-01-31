@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  Solbeg Plugin
-Plugin URI:   https://github.com/pavelkiru/solbeg-test-task
+Plugin URI:   https://github.com/pavelkiru/solbeg-plugin
 Description:  Solbeg Test Plugin
 Version:      1.0
 Author:       Pavel
@@ -25,28 +25,28 @@ require_once plugin_dir_path(__FILE__) . 'includes/solbeg-plugin-deactivate.php'
 require_once plugin_dir_path(__FILE__) . 'includes/solbeg-plugin-admin-pages.php';
 
 
-    if (version_compare(floatval(CURRENT_PHP_VERSION), MINIMUM_PHP_VERSION, '<')) {
+if (version_compare(floatval(CURRENT_PHP_VERSION), MINIMUM_PHP_VERSION, '<')) {
 
-        // деактивируем
-        add_action('admin_init', 'deactivate_plugin');
-        function deactivate_plugin()
-        {
-            deactivate_plugins(plugin_basename(__FILE__));
-        }
+    // деактивируем
+    add_action('admin_init', 'deactivate_plugin');
+    function deactivate_plugin()
+    {
+        deactivate_plugins(plugin_basename(__FILE__));
+    }
 
-        //  уведомление
-        add_action('admin_notices', 'deactivate_plugin_message');
-        function deactivate_plugin_message($CURRENT_PHP_VERSION)
-        {
-            echo "<div class='notice notice-error'>
+    //  уведомление
+    add_action('admin_notices', 'deactivate_plugin_message');
+    function deactivate_plugin_message($CURRENT_PHP_VERSION)
+    {
+        echo "<div class='notice notice-error'>
                     <p><strong>Solbeg Plugin</strong> деактивирован, для корректной работы необходима версия PHP не ниже 7.4. Текущая версия " . CURRENT_PHP_VERSION . "</p>
                     </div>";
 
-            if (isset($_GET['activate']))
-                unset($_GET['activate']);
-        }
-
+        if (isset($_GET['activate']))
+            unset($_GET['activate']);
     }
+
+}
 
 class Solbeg
 {
@@ -54,7 +54,7 @@ class Solbeg
     public function __construct()
     {
 
-        add_filter( 'the_title', [$this, 'add_data_published_to_post_title']);
+        add_filter('the_title', [$this, 'add_data_published_to_post_title']);
 
         add_action('admin_enqueue_scripts', ['Solbeg', 'enqueue']);
 
@@ -62,8 +62,9 @@ class Solbeg
     }
 
 
-    public function add_data_published_to_post_title ( $the_title ) {
-        if ( is_single() && !is_archive() && in_the_loop()) {
+    public function add_data_published_to_post_title($the_title)
+    {
+        if (is_single() && in_the_loop()) {
             $get_post_data = get_the_date();
             return $the_title . ' ' . $get_post_data;
         }
@@ -79,10 +80,6 @@ class Solbeg
 }
 
 new Solbeg();
-
-
-
-
 
 
 register_activation_hook(__FILE__, ['SolbegPluginActivate', 'activate']);

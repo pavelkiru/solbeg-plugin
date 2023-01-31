@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fde21692-09ba-4cee-b36b-dc9e39675ee0" name="Default Changelist" comment="" />
+    <list default="true" id="fde21692-09ba-4cee-b36b-dc9e39675ee0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solbeg-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/solbeg-task.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +67,7 @@
       <workItem from="1674895347185" duration="542000" />
       <workItem from="1674901892241" duration="237000" />
       <workItem from="1675110532726" duration="5144000" />
+      <workItem from="1675181440704" duration="1443000" />
     </task>
     <servers />
   </component>
